@@ -145,6 +145,22 @@ body {
 
 }
 
+.event-image img{
+   -webkit-transform-origin: top left;
+  transform-origin: top left;
+  position: absolute;
+  left: var(--left-translate);
+  inset-block-start: var(--top-translate);
+  -webkit-transform: scale(var(--image-scale));
+  transform: scale(var(--image-scale));
+  opacity: var(--image-opacity);
+    top: var(--top-translate);
+}
+
+event-image .flipped-image{
+    transform: scale(var(--image-scale),calc(var(--image-scale)*-1));
+}
+
 .sender-info {
     font-size: 14px;
     color: var(--text-secondary);
