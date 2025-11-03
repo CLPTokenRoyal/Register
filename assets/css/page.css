@@ -145,7 +145,7 @@ body {
 
 }
 
-.event-image img{
+.image-wrapper img{
    -webkit-transform-origin: top left;
   transform-origin: top left;
   position: absolute;
@@ -157,7 +157,7 @@ body {
     top: var(--top-translate);
 }
 
-event-image .flipped-image{
+.event-image .flipped-image{
     transform: scale(var(--image-scale),calc(var(--image-scale)*-1));
 }
 
